@@ -1,4 +1,4 @@
-module github.com/go-eden/routine
+module github.com/gomark/routine
 
 go 1.16
 
