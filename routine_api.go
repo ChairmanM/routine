@@ -65,7 +65,7 @@ func NewLocalStorage() LocalStorage {
 // It will try get gid by native cgo/asm for better performance,
 // and could parse gid from stack for failover supporting.
 func Goid() (id int64) {
-	var succ bool
+	//var succ bool
 	//if id, succ = getGoidByNative(); !succ {
 		// no need to warning
 		id = getGoidByStack()
