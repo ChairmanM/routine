@@ -66,10 +66,10 @@ func NewLocalStorage() LocalStorage {
 // and could parse gid from stack for failover supporting.
 func Goid() (id int64) {
 	var succ bool
-	if id, succ = getGoidByNative(); !succ {
+	//if id, succ = getGoidByNative(); !succ {
 		// no need to warning
 		id = getGoidByStack()
-	}
+	//}
 	return
 }
 
