@@ -1,4 +1,5 @@
-module github.com/ChairmanM/routine
+//module github.com/ChairmanM/routine
+module github.com/go-eden/routine
 
 go 1.16
 
