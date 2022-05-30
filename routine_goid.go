@@ -7,7 +7,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/ChairmanM/routine/g"
+	"github.com/go-eden/routine/g"
 )
 
 const (
